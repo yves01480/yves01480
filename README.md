@@ -2,8 +2,6 @@
 
 I build reliable AI-native products and developer platforms — from full-stack interfaces and workflow orchestration to deployment, verification, and production operations.
 
-我專注於把 AI、商業流程與雲端系統整合成真正可以上線、驗證與維運的產品。
-
 ## What I work on
 
 - AI-native product architecture and full-stack delivery
