@@ -10,27 +10,28 @@ I build reliable AI-native products and developer platforms — from full-stack 
 - Cloud deployment, Linux operations, observability, and reliability
 - Specification-driven engineering with explicit acceptance criteria and risk controls
 
-## Selected public projects
+## Free WooCommerce plugins · 給店家用的免費外掛
 
-### [Jify Cloud](https://github.com/yves01480/jify-cloud-website)
+**運費怎麼收、優惠怎麼套、會員點數怎麼用？先從你店裡的一個問題開始。**
 
-A product site and public entry point for a modular WooCommerce ecosystem covering shipping, discounts, taxes, and loyalty workflows.
+Jify 是可自行安裝的 WooCommerce 開源外掛系列。每個專案都提供版本 ZIP、功能說明與已知限制；可以先挑一個在測試站試用。
 
-### [Jify Loyalty](https://github.com/yves01480/jify-loyalty)
+| 你的店遇到什麼問題？ | 先看這個外掛 | 下一步 |
+|---|---|---|
+| 同一商品買 3 件與 8 件，需要不同運費 | **[Jify Shipping](https://github.com/yves01480/jify-shipping)**：數量區間運費與混合購物車人工報價 | [看設定範例](https://github.com/yves01480/jify-shipping#readme) · [下載 ZIP](https://github.com/yves01480/jify-shipping/releases/download/v3.9.2/jify-shipping.zip) |
+| 希望完成訂單能集點，下次結帳能折抵 | **[Jify Loyalty](https://github.com/yves01480/jify-loyalty)**：會員點數、異動紀錄與選用 LINE 綁定 | [看試用流程](https://github.com/yves01480/jify-loyalty#readme) · [下載 ZIP](https://github.com/yves01480/jify-loyalty/releases/download/v0.5.1/jify-loyalty.zip) |
+| 滿額優惠想自動套用到指定商品 | **[Jify Discount](https://github.com/yves01480/jify-discount)**：商品／規格促銷與活動排程 | [看計算範例](https://github.com/yves01480/jify-discount#readme) · [下載 ZIP](https://github.com/yves01480/jify-discount/releases/download/v2.1.0/jify-discount.zip) |
+| 需要驗證逐商品、折扣後與含運費的稅額計算 | **[Jify Taxes](https://github.com/yves01480/jify-taxes)**：可設定的稅額費用列 | [看適用範圍](https://github.com/yves01480/jify-taxes#readme) · [下載 ZIP](https://github.com/yves01480/jify-taxes/releases/download/v2.4.0/jify-taxes.zip) |
 
-A WooCommerce loyalty system with earning and redemption rules, transaction records, checkout integration, and LINE account binding.
+### 第一次來？從 Shipping 的一個小例子開始
 
-### [Jify Shipping](https://github.com/yves01480/jify-shipping)
+設定「1–5 件運費 NT$100、6–10 件 NT$150」，再把同一商品的購買數量從 3 改成 8，查看運費是否跟著切換。
 
-A quantity-aware shipping and mixed-cart quotation workflow for WooCommerce.
+**[開始設定 Shipping →](https://github.com/yves01480/jify-shipping#readme)**
 
-### [Jify Taxes](https://github.com/yves01480/jify-taxes)
+試用前請看各專案的限制：Shipping 人工報價以目前購物車為基礎；Loyalty 退款尚未自動回沖點數；Discount 滿額門檻不含運費；Taxes 使用費用列，需要核對會計與退款流程相容性。
 
-A regional tax-rule plugin with explicit calculation behavior, discount handling, and shipping allocation.
-
-### [Jify Discount](https://github.com/yves01480/jify-discount)
-
-A scheduled, threshold-based WooCommerce discount engine with documented calculation semantics and limitations.
+English feature details, requirements and implementation notes are included in each repository. Product website source: [Jify Cloud](https://github.com/yves01480/jify-cloud-website).
 
 ## Private production work
 
